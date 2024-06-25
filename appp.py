@@ -1007,7 +1007,7 @@ def main():
             # # Displaying File
             # st.markdown(pdf_display, unsafe_allow_html=True)  
             # Extract the first 30 pages
-            input_pdf = "EDA_report.pdf"
+            input_pdf = "./eda/EDA_report.pdf"
             output_pdf = "EDA_report_first_30_pages.pdf"
             extract_first_n_pages(input_pdf, output_pdf, 30)
 

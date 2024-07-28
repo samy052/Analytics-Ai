@@ -125,7 +125,8 @@ def genai ():
         # Specify the file path here
 
         # specific_file_path ="./EDA_report.pdf"
-        specific_file_path = "./us_census/thinkstats2-21-22_compressed.pdf"
+        specific_file_path = "./us_census/all_of_statistics-wasserman-prepub1_a4-2003.pdf"
+
 
         # Call the vector embedding function with the specific file
         vector_embedding(specific_file_path)
